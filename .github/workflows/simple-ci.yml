@@ -30,3 +30,4 @@ jobs:
       run: |
         echo "DB_NAME=${{ secrets.DB_NAME }}" > .env
         cat .env
+        
