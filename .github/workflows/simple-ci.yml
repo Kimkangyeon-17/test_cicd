@@ -28,5 +28,5 @@ jobs:
 
     - name: Create .env file   # 3단계
       run: |
-        echo "DB_NAME=${{ secrets.DB_NAME }}" > .env
+        echo "DB_NAME = ${{ secrets.DB_NAME }}" > .env
         cat .env
